@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface _BViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UILabel *textLabel;
+@property (strong, nonatomic) NSArray *responses;
 
 @end
