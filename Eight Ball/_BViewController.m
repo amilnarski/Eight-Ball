@@ -35,7 +35,7 @@
     [super becomeFirstResponder];
 }
 
-- (void) motionEnded:(UIEventSubtype)motion withEvent:(UIEvent *)event
+- (void) motionBegan:(UIEventSubtype)motion withEvent:(UIEvent *)event
 {
     int random = arc4random() % 20;
     [textLabel setText:[responses objectAtIndex:random]];
